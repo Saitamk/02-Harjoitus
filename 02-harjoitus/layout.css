@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%; /* oletus fonttikooksi 16px x 0.625 = 10px */
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playpen Sans", cursive;
+  margin: 1rem;
+}
+section {
+  background-color: #bbddee;
+  padding: 1rem;
+}
+figure {
+  background-color: #334466;
+  color: white;
+  float: left;
+  font-size: 500%;
+  border-inline-end: white solid 2rem;
+  border-block-end: white solid 2rem;
+  padding: 1.5rem;
+  padding-block-end: 1rem;
+  margin-inline-end: 1rem;
+  margin-block-end: 1rem;
+  margin-block-start: -1rem;
+  margin-inline-start: -1rem;
+}
+.pieni {
+  width: 20rem;
+  background-color: white;
+  padding: 0;
+  border: 0;
+}
+.vasen-nurkka {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  width: 40rem;
+  border: 0;
+}
+.oikea-reuna {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  float: right;
+  border: 0;
+  margin: 1rem -1rem 1rem 1rem;
+}
+figure span {
+}
+.pieni img {
+  max-width: 100%;
+}
+figure span {
+}
+h2,
+p,
+pre,
+h3,
+ul,
+section {
+  margin-block-end: 1rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+ul {
+  font-size: 1.6rem;
+  list-style: disc;
+  padding-inline-start: 3rem;
+}
+.oikealle {
+  text-align: right;
+  background-color: #88aabb;
+  margin-block-start: -1rem;
+  margin-inline-end: -1rem;
+  padding: 1rem;
+  padding-block-start: 2rem;
+  text-transform: lowercase;
+}
+p {
+  font-size: 1.6rem;
+}
+pre {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-inline-start: 2rem;
+}
